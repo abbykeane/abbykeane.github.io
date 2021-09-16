@@ -1,0 +1,42 @@
+body{
+	background-color: blue;
+	color:red;
+	font-size:40px;
+}
+
+#response {
+	color:white;
+	font-family: monospace;
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+
+#first-response {
+	font-family: sans-serif;
+}
+
+ul{
+	text-align:center;
+	margin-left:900px;
+}
+
+#illusion{
+	font-size:100px;
+	font-weight:bold;
+	text-align: center;
+}
+#real {
+	color:yellow;
+	height: 100px;
+	width: 100px;
+	padding: 150px;
+	border-radius: 50%;
+	letter-spacing: 15px;
+	font-size:18px;
+	position: absolute;
+	top: -71px;
+	left: 1130px;
+	opacity:.7;
+
+}

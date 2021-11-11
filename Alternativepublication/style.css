@@ -1,0 +1,1022 @@
+body{
+	background: url("1.nocrop.w840.h1330.2x-1024x683.jpg");
+	height:4000px;
+}
+.maximize{
+	width:90%;
+	position: absolute;
+	z-index:1;
+	left: 50px;
+	top:0px;
+	transform:rotate(-9deg);
+}
+.maximize2{
+	width:70%;
+	position: absolute;
+	z-index:1;
+	left: 200px;
+	top:400px;
+	transform:rotate(-9deg);
+	opacity:65%;
+}
+.maximize3{
+	width:70%;
+	position: absolute;
+	z-index:2;
+	left: 50px;
+	top:500px;
+	transform:rotate(-9deg);
+	opacity:65%;
+}
+.maximize:hover {
+	width:75%;
+}
+.pearls{
+	width:40px;
+	height:50px;
+	background-image:url("flowers.png");
+	background-size: 40px;
+	position:absolute;
+	top:2280px;
+	left:60px;	
+	z-index:50;
+}
+.growpearl{
+	position:absolute;
+	background-size: 80px;
+	width:80px;
+	height:100px;
+	left: 770px;
+	top: 500px;
+	z-index: 50;
+	border-width: 5px;
+	border-color: cadetblue;
+	border-style:groove;
+	float:left;
+}
+.collect{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	z-index:20;
+	left:120px;
+	top:340px;
+}
+/*
+.whiteblock{
+	background-color:white;
+	position:absolute;
+	top:1800px;
+	opacity:80%;
+	width:100%;
+	height:700px;
+}
+*/
+/*stickers*/
+.stick{
+	position:absolute;
+	top:1850px;
+	left:0px;
+	width:70%;
+}
+.shoes{
+	width:20%;
+	position:absolute;
+	top:1700px;
+	left: 100px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.shoes:hover {
+	filter: saturate(0%);
+}
+.smile{
+	width:15%;
+	position:absolute;
+	top:2000px;
+	left: 40px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.smile:hover {
+	filter: saturate(0%);
+}
+.stars{
+	width:15%;
+	position:absolute;
+	top:1800px;
+	left: 380px;	
+	z-index:20;
+	filter: saturate(100%);
+}
+.stars:hover {
+	filter: saturate(0%);
+}
+.planets{
+	width:15%;
+	position:absolute;
+	top:1900px;
+	left: 900px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.planets:hover {
+	filter: saturate(0%);
+}
+.fingers{
+	width:10%;
+	position:absolute;
+	top:2100px;
+	left:400px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.fingers:hover {
+	filter: saturate(0%);
+}
+.boots{
+	width:10%;
+	position:absolute;
+	top:2100px;
+	left:900px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.boots:hover {
+	filter: saturate(0%);
+}
+.wine{
+	width:10%;
+	position:absolute;
+	top:2300px;
+	left:750px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.wine:hover {
+	filter: saturate(0%);
+}
+.socks{
+	width:10%;
+	position:absolute;
+	top:2400px;
+	left:950px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.socks:hover {
+	filter: saturate(0%);
+}
+.mushrooms{
+	width:10%;
+	position:absolute;
+	top:2550px;
+	left:100px;	
+	z-index:19;
+	filter: saturate(100%);
+}
+.mushrooms:hover {
+	filter: saturate(0%);
+}
+
+.moon{
+	width:100px;
+	height:100px;
+	position: absolute;
+	left: 80%;
+	top: 2250;
+	z-index: 11;
+	border-radius: 100% 100% 100% 100%;
+	border-image:none;
+	border-width:0px;
+	background-image:url("FullMoon2010.jpg");
+	background-size: 100px;
+}
+.moon:hover {
+	border: 5px solid pink;
+}
+.growmoon{
+	top:420px;
+	left:900px;
+	width:100px;
+}
+.photos{
+	font-size:23px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	word-spacing:50px;
+	left:12%;
+	top:1000px;
+	z-index: 30;
+}
+.circles{
+	width:100%;
+	height:200%;
+	position:absolute;
+	top:1600px;
+	left:-1px;
+	z-index:-1;
+}
+/*photos*/
+.smiles{
+	width:45%;
+	position:absolute;
+	left:570px;
+	top:1017px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+}
+.seyburt{
+	width:28%;
+	position:absolute;
+	top:900px;
+	left:1%;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+}
+.sunset{
+	width:45%;
+	position:absolute;
+	top:1015px;
+	left:355px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+}
+.tea{
+	width:45%;
+	position:absolute;
+	top:730px;
+	left:350px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+}
+.grafitti{
+	width:60%;
+	position:absolute;
+	top:1050px;
+	left:750px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+	transform:rotate(90deg);
+}
+.bc{
+	width:60%;
+	position:absolute;
+	top:770px;
+	left:540px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+	transform: rotate(90deg);
+}
+.cameraroll{
+	width:60%;
+	position:absolute;
+	top:700px;
+	left:0px;
+}
+.polariod{
+	width:45%;
+	position:absolute;
+	top:730px;
+	left:780px;
+	border-width:5px;
+	border-color:black;
+	border-style:solid;
+}
+.swirl{
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:2000px;
+	z-index:10;
+	opacity:0;
+}
+.orangeblock{
+	background-color: #DD370A;
+	width:111%;
+	height:700px;
+	top:1000px;
+	position:absolute;
+	z-index:1;
+	padding:none;
+	left:0%
+	
+}
+.rectangle{
+	height: 400px;
+	width:450px;
+	position: absolute;
+	left: 7%;
+	top:320px;
+	z-index: 10;
+	background-color: indianred;
+	opacity: 60%;
+}
+.rectangle:hover{
+	border-width: 20px;
+}
+.rectangle5{
+	height:400px;
+	width:400px;
+	position:absolute;
+	left:55%;
+	top:340px;
+	z-index:10;
+	background-color:black;
+	border-color: white;
+	border-width: 5px;
+	border-style:groove;
+}
+.rectangle5:hover {
+	border-width:20px;
+}
+#find{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:white;
+	color:black;
+	left:1%;
+	text-align: center;
+	top:0px;
+}
+#peony{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:white;
+	color:black;
+	left:17%;
+	top:260px;
+}
+#moon{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:white;
+	color:black;
+	left:205px;
+	top:170px;
+}
+.grow5{
+	height:400px;
+}
+.rectangle2{
+	height: 150px;
+	width:400px;
+	position: absolute;
+	left: 55%;
+	top:300;
+	z-index: 9;
+	background: url("rocks.png");
+	border-style:dotted;
+	border-width: 5px;
+}
+.rectangle2:hover {
+	border-width: 20px;
+}
+.grow2{
+	height: 1900px;
+}
+/*rocks drawer*/
+.rockstitle{
+	position:absolute;
+	font-size: 65px;
+	line-height:56px;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	opacity:80%;
+}
+#rocksrocksrocks{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:12%;
+}
+.rocks{
+	background-color: white;
+	width:200px;
+	height:400px;
+	position:absolute;
+	left:55%;
+	top:300px;
+	z-index: 22;
+}
+.amethyst{
+	width:40%;
+	position:absolute;
+	left: 1%;
+	top:44%;
+	filter: saturate(0);
+}
+.amethyst:hover{
+	filter: saturate(100%);
+}
+#amethyst{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:52%;
+	left:17%;
+	background-color:black;
+	color:white;
+}
+.celestite{
+	width:50%;
+	position: absolute;
+	left:10%;
+	top:65%;
+	filter: saturate(0);
+}
+.celestite:hover{
+	filter: saturate(100%);
+}
+#celestite{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:73%;
+	left:27%;
+	background-color:black;
+	color:white;
+}
+.rosequartz{
+	width:60%;
+	position: absolute;
+	left:38%;
+	top:57%;
+	filter: saturate(0);
+}
+.rosequartz:hover{
+	filter: saturate(110%);
+}
+#rosequartz{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:64%;
+	left:59%;
+	background-color:black;
+	color:white;
+}
+.azurite{
+	width:45%;
+	position: absolute;
+	left:50%;
+	top:13%;
+	filter: saturate(0);
+}
+.azurite:hover{
+	filter: saturate(110%);
+}
+#azurite{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:20%;
+	left:68%;
+	background-color:black;
+	color:white;
+}
+.chalcedony{
+	width:50%;
+	position: absolute;
+	left:0px;
+	top:16%;
+	filter: saturate(0);
+}
+.chalcedony:hover{
+	filter: saturate(110%);
+}
+#chalcedony{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:24%;
+	left:17%;
+	background-color:black;
+	color:white;
+}
+.opalite{
+	width:50%;
+	position: absolute;
+	left:35%;
+	top:25%;
+	filter: saturate(0);
+}
+.opalite:hover{
+	filter: saturate(110%);
+}
+#opalite{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:31%;
+	left:57%;
+	background-color:black;
+	color:white;
+}
+.obsidian{
+	width:45%;
+	position: absolute;
+	left:7%;
+	top:32%;
+	filter: saturate(0);
+}
+.obsidian:hover{
+	filter: saturate(110%);
+}
+#obsidian{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:40%;
+	left:25%;
+	background-color:black;
+	color:white;
+}
+.lapislazuli{
+	width:50%;
+	position: absolute;
+	left:45%;
+	top:40%;
+	filter: saturate(0);
+}
+.lapislazuli:hover{
+	filter: saturate(110%);
+}
+#lapislazuli{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:47%;
+	left:61%;
+	background-color:black;
+	color:white;
+}
+.garnet{
+	width:70%;
+	position: absolute;
+	left:-3%;
+	top:54%;
+	filter: saturate(0);
+}
+.garnet:hover{
+	filter: saturate(110%);
+}
+#garnet{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:61%;
+	left:25%;
+	background-color:black;
+	color:white;
+}
+#meanings{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	top:81%;
+	left:15px;
+	right:15px;
+	background-color:black;
+	color:white;
+}
+.rectangle3{
+	height: 200px;
+	width:400px;
+	position: absolute;
+	left: 55%;
+	top:250;
+	z-index: 8;
+	background-color: black;
+	border-style:double;
+	border-width: 5px;
+	border-color: whitesmoke;
+}
+.rectangle3:hover {
+	border-width: 20px;
+}
+.grow3{
+	width: 900px;
+	left:15%;
+	top:380px;
+	height:350
+}
+#cardscardscards{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:20%;
+	z-index: 26;
+}
+.pikachu{
+	width:25%;
+	left:63%;
+	top:5%;
+	position:absolute;
+	z-index:25;
+}
+.pikachu:hover{
+	z-index:25;
+}
+.bulbasaur{
+	width:25%;
+	left:63%;
+	top:5%;
+	position:absolute;
+	z-index: 24;
+	transform: rotate(10deg);
+}
+.bulbasaur:hover{
+	z-index: 25;
+}
+.charizard{
+	width:25%;
+	left:63%;
+	top:5%;
+	position:absolute;
+	z-index:23;
+	transform: rotate(-10deg);
+}
+.charizard:hover{
+	z-index:25;
+}
+.baseballcards{
+	width:50%;
+	position:absolute;
+}
+.rectangle4{
+	height: 200px;
+	width:400px;
+	position: absolute;
+	left:55%;
+	top:200px;
+	z-index: 7;
+	background-color: white;
+	border-style:outset;
+	border-width: 5px;
+	border-color: green;
+}
+.rectangle4:hover {
+	border-width:20px;
+}
+.grow4{
+	width:650px;
+	height:630px;
+	left:35%;
+}
+#stamps{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:15%;	
+}
+.stamps{
+	width:90%;
+	position:absolute;
+	top:15%;
+	left:4%
+	
+}
+.rhino{
+	width:7.5%;
+	position:absolute;
+	left:25%;
+	top:46%;
+}
+.rhino:hover{
+	width:50%;
+}
+.rectangle6{
+	background-color:white;
+	width:650px;
+	height:600px;
+	position:absolute;
+	top:3300px;
+	left:400px;
+}
+.grow6{
+	z-index:20;
+}
+.moment{
+	width:80%;
+	position:absolute;
+	left:20px;
+	top:20px;
+}
+.momentcaption{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:420px;
+	top:40px;
+
+}
+.tavi{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	z-index:20;
+	left:120px;
+	top:340px;
+}
+.tavicaption{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:420px;
+	top:40px;
+	width:300px;
+}
+.tavi:hover{
+	color:pink;
+}
+#tavi{
+	z-index:1;
+	position:absolute;
+	width:30%;
+	top:15px;
+	left:100px;
+}
+.rectangle7{
+	background-color:black;
+	width:500px;
+	height:500px;
+	position:absolute;
+	top:2750px;
+	left:550px;
+}
+.grow7{
+	z-index:20;
+}
+.monorail{
+	width:50%;
+}
+.monorailcaption{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:350px;
+	top:40px;
+
+}
+.rectangle8{
+	background-color:white;
+	width:800px;
+	height:400px;
+	position:absolute;
+	top:3000px;
+	left:20px;
+}
+.grow8{
+	z-index:20;
+}
+.rectangle9{
+	background-color:black;
+	width:800px;
+	height:400px;
+	position:absolute;
+	top:3600px;
+	left:30px;
+	z-index:0px;
+}
+.grow9{
+	z-index:20;
+}
+.elton{
+	font-size:20px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:black;
+	color:white;
+	left:420px;
+	top:40px;
+	width:300px;
+}
+.eltonpic{
+	width:30%;
+	position:absolute;
+	left:50px;
+	top:15px;
+}
+.sunglasses{
+	width:50px;
+	height:35px;
+	background-image: url("sunglasses.png");
+	position:absolute;
+	background-size: 50px;
+	left:190px;
+	top: 3800px;
+	z-index:30;
+}
+.growsunny{
+	position:absolute;
+	left:980px;
+	top:630px;
+}
+#sunglasses{
+	font-size:13px;
+	font-family: helvetica;
+	position:absolute;
+	background-color:white;
+	color:black;
+	left:225px;
+	top:320px;
+}
+.active{
+ z-index: 20;
+}
+
+@media screen and (max-width: 405px) {
+	body{
+		overflow-x: hidden;
+		background-size: 450px;
+		align-content: center;
+		height:4400px;
+	}
+	.maximize{
+		left:30px;
+		top:20px;
+	}
+	.rectangle{
+		width:300px;
+		left:40px;
+		top:150px;
+		height:250px;
+	}
+	.rectangle2{
+		left:15px;
+		top:550px;
+		width:90%;
+	}
+	.rectangle3{
+		left:15px;
+		top:500px;
+		width:90%;
+	}
+	.rectangle4{
+		left:15px;
+		top:450px;
+		width:90%;
+	}
+	.rectangle5{
+		left:15px;
+		top:600px;
+		width:90%;
+	}
+	.collect{
+		left:45px;
+		font-size:15px;
+		top:150px;
+	}
+	.orangeblock{
+		top:1100px;
+		height:1100px;
+	}
+	.cameraroll{
+		top:950px;
+		left:50px;
+	}
+	.photos{
+		top:1330px;
+		font-size:20px;
+		width:200;
+		left:80px;
+	}
+	.seyburt{
+		top:1350;
+		width:45%;
+	}
+	.tea{
+		top:1350;
+		left:150px;
+	}
+	.bc{
+		top:1575;
+		left:122px;
+	}
+	.smiles{
+		top:1610;
+		left:-20px;
+	}
+	.grafitti{
+		top:1825;
+		left:-40px;
+	}
+	.sunset{
+		top:1750px;
+		left:150px;
+	}
+	.circles{
+		top:2250px;
+		width:600px;
+		height:500px;
+	}
+	.stick{
+		top:2350px;
+		width:370px;
+	}
+	.moon{
+		top:2400px;
+		width:50px;
+		left:200px;
+		height:50px;
+		background-size:50px;
+	}
+	.growmoon{
+		left:240px;
+		top:700px;
+	}
+	.pearls{
+		top:2500px;
+		left:10px;
+	}
+	.growpearl{
+		top:750px;
+		left:60px;
+	}
+	.smile{
+		top:2660px;
+		left:190px;
+	}
+	.rectangle6{
+		left:5px;
+		top:2800px;
+		width:330px;
+		height:400px;
+	}
+	.momentcaption{
+		z-index:30;
+		left:20px;
+		top:300px;
+		font-size:15px;
+	}
+	.rectangle7{
+		left:5px;
+		top:3750px;
+		width:330px;
+		height:280px;
+	}
+	.monorailcaption{
+		left:200px;
+		font-size:15px;
+	}
+	.rectangle8{
+		left:5px;
+		top:3300px;
+		width:330px;
+	}
+	#tavi{
+		width:250px;
+		left:10px
+	}
+	.tavi{
+		font-size:15px;
+	}
+	.rectangle9{
+		left:5px;
+		top:4100px;
+		width:330px;
+		height:200px;
+	}
+	.elton{
+		left:4px;
+		top:170px;
+		font-size:15px;
+		width:290px;
+	}
+	.sunglasses{
+		top:4190px;
+		left:95px;
+	}
+	.growsunny{
+		left:260px;
+		top:880px;
+	}
+}

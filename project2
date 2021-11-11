@@ -1,0 +1,208 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link href="style.css" rel ="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	<img class="maximize" src="maximize.png">
+	<img class="maximize2" src="maximize.png">
+	<img class="maximize3" src="maximize.png">
+	<div id="moons" class="moon" onclick="movemoon()"></div>
+	<div class="whiteblock"></div>
+		<img class="stick" src="stick.png">
+		<img class="shoes" src="giphy%20(1).gif">
+		<img class="smile" src="giphy%20(2).gif">
+		<img class="stars" src="giphy.gif">
+		<img class="planets" src="planets.gif">
+		<img class="fingers" src="7b5884_f145266c2e6b4741bd8788ff332a341f_mv2.gif">
+		<img class="wine" src="wine.gif">
+		<img class="socks" src="socks.gif">
+		<img class="mushrooms" src="mushroom.gif">
+		<img class="boots" src="boots.gif">
+	
+		<div id="pearl" class="pearls" onclick="movepearl()">
+		</div>
+	<div class="film"></div>
+	
+	
+	<p class="photos">COLLECT AND TAKE<br>PHOTOS OF EVERYTHING</p>
+	<p class="collect"> WHAT IS MAXIMALISM?<br> Why do we collect things?<br> Maximilsm is the art of stuff, the process<br> of collecting and displaying, its a collage of <br> everything.Some call this lifestyle too much<br> maximalists are scene as PACKRATS<br> or wacky.It can also be seen as the<br>celebration of materialism. <span id="fun">We think its fun.</span><br>Cracker Jack toys to manhole covers?<br> Some people collect for investment,<br> some collect for pure enjoyment,<br>some collect to express themselves. 
+		<img class="smiles"src="IMG-2226.jpg">
+		<img class="seyburt"src="IMG-2227.JPG">
+		<img class="sunset"src="IMG-2506.jpg">
+		<img class="tea"src="IMG-2731.jpg">
+		<img class="grafitti" src="IMG-2735.jpg">
+		<img class="cameraroll"src="IMG_2761.PNG">
+		<img class="bc"src="654700797.727226.jpg">
+		<img class="polariod" src="65551610595--B85CC962-D6B6-4BDF-B1C1-8C236ABE6632.jpg">
+	<img class="swirl" src="swirl.png">
+	<div class="orangeblock"></div>
+	<div id="one"class="rectangle" onclick="moverectangle1()"></div>
+	<div id="two"class="rectangle2" onclick="moverectangle2()">
+		<p class="rockstitle">Things to Add to Your Rock Collection</p>
+		<p id="rocksrocksrocks">ROCKS AND CRYSTALS ROCKS AND CRYSTALS</p>
+			<p id="amethyst">Amethyst</p>
+			<p id="celestite">Celestite</p>
+			<p id="rosequartz">Rose Quartz</p>
+			<p id="azurite">Azurite</p>
+			<p id="chalcedony">Chalcedony</p>
+			<p id="opalite">Opalite</p>
+			<p id="obsidian">Obsidian</p>
+			<p id="lapislazuli">Lapis Lazuli</p>
+			<p id="garnet">Garnet</p>
+			<p id="meanings">Azurite - increased spiritual and psychic powers within the one who wore it<br>Chalcedony - increase stability and balance<br>Opalite - stabilise mood swings and helps to overcome tiredness, helps verbalize hidden feelings<br>Obsidian - used to connect the spiritual world to the physical one, used for grounding<br>Lapis Lazuli - soothes inflammation and fights for both the respiratory and the nervous system. It unblocks problems with the throat and the thyroid<br>Amethyst - to open a person's third eye, source of power and wisdom<br>Garnet - the embodiment of the energies of fire, passion, creativity, and strength<br>Rose Quartz - purifies and opens the heart at all levels to promote love, self-love, friendship, deep inner healing and feelings of peace<br>Celestite - about inner peace, quiet space, and elevating the spirit</p>
+		<img class="amethyst" src="amethyst.png">
+		<img class="celestite" src="celestite.png">
+		<img class="rosequartz" src="rosequartz.png">
+		<img class="azurite" src="azurite.png">
+		<img class="chalcedony" src="chalcedony.png">
+		<img class="opalite" src="opalite.png">
+		<img class="obsidian" src="obsidian.png">
+		<img class="lapislazuli" src="lapislazuli.png">
+		<img class="garnet" src="garnet.png">
+	</div>
+	<div id="three"class="rectangle3" onclick="moverectangle3()">
+		<p id="cardscardscards">CARDS CARDS CARDS CARDS CARDS</p>
+		<img class="pikachu" src="pikachu.jpg">
+		<img class="bulbasaur" src="bulbasaur.jpg">
+		<img class="charizard" src="cahrizard.jpg">
+		<img class="baseballcards" src="baseballcards.jpg">
+	</div>
+	<div id="four"class="rectangle4" onclick="moverectangle4()">
+		<p id="stamps"> STAMPS STAMPS STAMPS STAMPS STAMPS</p>
+		<img class="stamps" src="stamps.jpg">
+		<img class="rhino" src="rhino.jpg">
+	</div>
+	<div id="five"class="rectangle5" onclick="moverectangle5()">
+		<p id="find">SCAVENGER HUNT SCAVENGER HUNT SCAVENGER HUNT<br>LOOK FOR:</p>
+		<p id="peony"> A Peony: </p>
+		<p id="moon">A Full Moon:</p>
+		<p id="sunglasses">A Pair of Sunnies</p>
+	</div>
+	<div id="six"class="rectangle6" onclick="moverectangle6()">
+		<img class="moment" src="moment.jpg">
+		<p class="momentcaption"> "Moment",<br> Mural<br>by Moki Cherry</p>
+	</div>
+	<div id="seven"class="rectangle7" onclick="moverectangle7()">
+		<img class="monorail" src="monorail.jpg">
+		<p class="monorailcaption">"Monorail",<br> Digital Art<br> by Alasdair Willis</p>
+	</div>
+	<div id="eight"class="rectangle8" onclick="moverectangle8()">
+		<img id="tavi" src="tavi.jpg">
+		<p class="tavicaption">Gevinson started a fashion blog, Style Rookie, in 2008. The blog, featuring photos of the 11-year-old in distinctive outfits and her commentary on the latest fashion trends, began drawing nearly 30,000 readers each day. SHe is now living as an icon in the fashion world, but this interview from her teen years shows her space was where she drew her original inspirations.</p>
+		<a class="tavi" href="https://www.youtube.com/watch?v=FEZKeu7l32Q">Tavi Gevinson's Space</a>
+	</div>
+	<img class="circles" src="circles.png">
+	<div id="sunglass" class="sunglasses" onclick="movesunny()"></div>
+	<div class="rectangle9">
+		<img class="eltonpic" src="elton.jpg">
+		<a class="elton" href="https://fashionews.com/elton-johns-shoe-and-sunglasses-closet/">Elton John's Glasses and Shoes Collection</a>
+	</div>
+<script>
+  var x = 0;
+  function moverectangle() {
+    if (x == 0) {
+      document.getElementById("one").classList.add("active");
+      x = 1;
+    } else {
+      document.getElementById("one").classList.remove("active");
+      x = 0;
+    }
+  }
+  function moverectangle2() {
+    if (x == 0) {
+      document.getElementById("two").classList.add("active","grow2");
+      x = 1;
+    } else {
+      document.getElementById("two").classList.remove("active","grow2");
+      x = 0;
+    }
+  }
+  function moverectangle3() {
+    if (x == 0) {
+      document.getElementById("three").classList.add("active","grow3");
+      x = 1;
+    } else {
+      document.getElementById("three").classList.remove("active","grow3");
+      x = 0;
+    }
+  } 
+  function moverectangle4() {
+    if (x == 0) {
+      document.getElementById("four").classList.add("active","grow4");
+      x = 1;
+    } else {
+      document.getElementById("four").classList.remove("active","grow4");
+      x = 0;
+    }
+  }
+  function moverectangle5() {
+    if (x == 0) {
+      document.getElementById("five").classList.add("active","grow5");
+      x = 1;
+    } else {
+      document.getElementById("five").classList.remove("active","grow5");
+      x = 0;
+    }
+  }
+function movepearl() {
+    if (x == 0) {
+      document.getElementById("pearl").classList.add("active","growpearl");
+      x = 1;
+    } else {
+      document.getElementById("pearl").classList.remove("active","growpearl");
+      x = 0;
+    }
+  }
+function movemoon() {
+    if (x == 0) {
+      document.getElementById("moons").classList.add("active","growmoon");
+      x = 1;
+    } else {
+      document.getElementById("moons").classList.remove("active","growmoon");
+      x = 0;
+    }
+  }
+	
+ function moverectangle6() {
+    if (x == 0) {
+      document.getElementById("six").classList.add("active","grow6");
+      x = 1;
+    } else {
+      document.getElementById("six").classList.remove("active","grow6");
+      x = 0;
+    }
+  }
+ function moverectangle7() {
+    if (x == 0) {
+      document.getElementById("seven").classList.add("active","grow7");
+      x = 1;
+    } else {
+      document.getElementById("seven").classList.remove("active","grow7");
+      x = 0;
+    }
+  }
+ function moverectangle8() {
+    if (x == 0) {
+      document.getElementById("eight").classList.add("active","grow8");
+      x = 1;
+    } else {
+      document.getElementById("eight").classList.remove("active","grow8");
+      x = 0;
+    }
+  }
+	function movesunny() {
+    if (x == 0) {
+      document.getElementById("sunglass").classList.add("active","growsunny");
+      x = 1;
+    } else {
+      document.getElementById("sunglass").classList.remove("active","growsunny");
+      x = 0;
+    }
+  }
+</script>	
+		</body>
+</html>
